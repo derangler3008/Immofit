@@ -33,6 +33,9 @@ struct ContentView: View {
                         Label("Add Item", systemImage: "plus")
                     }
                 }
+                ToolbarItem (placement: .bottomBar) {
+                    EditButton()
+                }
             }
         } detail: {
             Text("Select an item")
